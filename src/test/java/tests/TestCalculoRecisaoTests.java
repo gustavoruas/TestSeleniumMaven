@@ -60,8 +60,8 @@ public class TestCalculoRecisaoTests {
 	@Test
 	public void testeDataInicioMaiorFim() throws Exception{
 		pagina.setInputCampo("Entrada_UltimoSalario", "2000,00");
-		pagina.setInputCampo("Entrada_DataInicioTrabalho", "01/01/2005");		
-		pagina.setInputCampo("Entrada_DataFimTrabalho", "10/10/2011");
+		pagina.setInputCampo("Entrada_DataInicioTrabalho", "01/01/2011");		
+		pagina.setInputCampo("Entrada_DataFimTrabalho", "10/10/2005");
 		pagina.setDropDownValue("Entrada_Motivo", "Término de contrato de experiência");
 		pagina.clickButton("Calcular");
 		
