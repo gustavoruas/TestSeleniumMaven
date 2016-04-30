@@ -13,7 +13,7 @@ public class Driver {
 		
 		if(drive == null){
 			drive = new FirefoxDriver();
-			drive.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);	
+			drive.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);	
 		}
 		
 		drive.get(urlBase + url);
